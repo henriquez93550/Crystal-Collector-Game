@@ -1,0 +1,18 @@
+crystals{
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+.crystal{
+	border:1px solid green;
+	height:200px;
+    width: 200px;
+    transition: box-shadow 1s, transform 2s;
+}
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s;
+   
+
+}
