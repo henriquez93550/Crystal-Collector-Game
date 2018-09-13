@@ -8,11 +8,11 @@ crystals{
 	border:1px solid green;
 	height:200px;
     width: 200px;
-    transition: box-shadow 1s, transform 2s;
+    transition: box-shadow 1s, transform 2s; /* Makes the hover effect */
 }
 .crystal:hover {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
-	transition: box-shadow 1s, transform 2s;
+	
    
 
 }
