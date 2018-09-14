@@ -15,7 +15,7 @@ var startGame = function () {
 
 //generates then writes the random result to HTML so it can show on the screen
 randomResult = Math.floor(Math.random() * 69 ) + 30;
-$("#result").html('Random Result: ' + randomResult);
+$("#result").html('Crystals Needed: ' + randomResult);
 
 //for loop "< 4" shows the amount of crystals 
 for( var i = 0; i < 4; i++){

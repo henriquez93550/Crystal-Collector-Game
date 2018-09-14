@@ -4,6 +4,10 @@ body {
 	background-image: url(https://cdnb.artstation.com/p/assets/images/images/003/523/899/large/pavel-sivash-frame-00012.jpg?1474638232);
 }
 
+h3 {
+	color: aqua;
+}
+
 .crystals{
 	display: flex;
 	justify-content: space-around;
