@@ -18,15 +18,13 @@ randomResult = Math.floor(Math.random() * 69 ) + 30;
 $("#result").html('Random Result: ' + randomResult);
 
 //for loop "< 4" shows the amount of crystals 
-for( var i = 0; i < 4; i++) {
+for( var i = 0; i < 4; i++){
   
     //generates random value for crystals.
     //crystals need random number value
     var randomNum = Math.floor(Math.random() * 11) + 1;
    
     //console.log(randomNum);
-
-    
     
     var crystal = $("<div>");
     
@@ -54,9 +52,7 @@ for( var i = 0; i < 4; i++) {
     
 startGame();
 
-var reset = function () {
 
-}
 //Event Delegation 
 //allows player to click on crystal
 $(document).on('click', ".crystal", function () {
@@ -82,9 +78,6 @@ $(document).on('click', ".crystal", function () {
     else if(previous === randomResult) {
         win++;
         $("#win").html("Your Wins: " + win);
-       
-       
-
         
         //resets counter to zero when user wins
         previous = 0;

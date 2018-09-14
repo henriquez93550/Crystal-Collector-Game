@@ -1,18 +1,39 @@
-crystals{
+
+
+body {
+	background-image: url(https://cdnb.artstation.com/p/assets/images/images/003/523/899/large/pavel-sivash-frame-00012.jpg?1474638232);
+}
+
+.crystals{
 	display: flex;
 	justify-content: space-around;
-    align-items: center;
+	align-items: center;
 }
 
 .crystal{
-	border:1px solid green;
+	border:1px solid red;
 	height:200px;
     width: 200px;
-    transition: box-shadow 1s, transform 2s; /* Makes the hover effect */
+	transition: box-shadow 1s, transform 1s; /* Makes the hover effect */
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px aqua;
 }
 .crystal:hover {
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
-	
-   
+	box-shadow: 15px 15px 15px aqua;
+	transform: translate(5px,80px);
+	transition: box-shadow 1s, transform 1s;
+}
 
+#win {
+	color: aqua;
+}
+
+#lost {
+	color: aqua;
+}
+#previous {
+	color:  aqua;
+}
+#result {
+	color: aqua;
 }
