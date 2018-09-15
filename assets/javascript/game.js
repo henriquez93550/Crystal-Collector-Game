@@ -46,7 +46,7 @@ for( var i = 0; i < 4; i++){
 
     $(".crystals").append(crystal);
   }
-  $("#previous").html("Total Score: " + previous);
+  $("#previous").html("Crystals Collected: " + previous);
 }
 
     
